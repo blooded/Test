@@ -13,6 +13,8 @@ import android.os.Message;
 import android.util.Log;
 import android.widget.Toast;
 
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
 
@@ -26,8 +28,7 @@ public class TestService extends android.app.Service  {
 
 
     Thread t;
-
-
+    
 
 
     public int onStartCommand(Intent intent, int flags, int startId) {
